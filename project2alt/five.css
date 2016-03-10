@@ -1,0 +1,29 @@
+
+body {
+	background-color: white;
+	color:red;
+
+}
+
+
+
+
+
+.info {
+
+	font-family: helvetica;
+	font-size: 90px;
+	
+	margin-bottom: 300px;
+	text-align: center;
+	margin-left: 30px;
+	line-height:100px;
+	letter-spacing:5px;
+}
+
+
+
+a:hover {
+  background-color:blue;
+  color:red;
+}

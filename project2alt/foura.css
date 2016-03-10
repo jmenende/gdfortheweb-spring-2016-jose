@@ -1,0 +1,56 @@
+body {
+	background-color: yellow;
+	background-size: 100px;
+
+
+	
+	
+}
+
+
+
+
+.sans3 {
+	font-family: helvetica;
+	font-size: 300px;
+	line-height: 260px;
+	
+
+	
+}
+
+
+a:hover {
+  background-color:blue;
+
+
+  color:black;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+
+.sans3 {
+	font-family: helvetica;
+	font-size: 100px;
+	line-height: 90px;
+	
+
+	
+}
+
+
+a:hover {
+  background-color:blue;
+
+
+  color:black;
+  
+}
+
+	
+}
+

@@ -1,0 +1,103 @@
+body {
+	background-color: black;
+	background-size: 100px;
+	color:white;
+
+
+	
+	
+}
+
+/*.ruler {
+	height:600px;
+	width:1300px;
+	background-color:black;
+}*/
+
+
+.sans {
+	font-family: helvetica;
+	font-size: 200px;
+text-decoration: overline;
+	line-height:203px;
+
+	
+}
+
+.sans2 {
+	font-family: helvetica;
+	font-size: 200px;
+	
+	text-decoration: line-through;
+}
+
+
+.sans3 {
+	font-family: helvetica;
+	font-size: 200px;
+	
+
+	
+}
+
+
+a:hover {
+  background-color:white;
+
+
+  color:black;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+
+
+.sans {
+	font-family: helvetica;
+	font-size: 75px;
+	text-decoration: overline;
+	line-height:10px;
+	font-weight: normal;
+	letter-spacing: 2.5px;
+
+	
+}
+
+.sans2 {
+	font-family: helvetica;
+	font-size: 75px;
+	line-height:75px;
+	letter-spacing: 2.5px;
+	text-decoration: line-through;
+	
+
+	
+}
+
+.sans3 {
+	font-family: helvetica;
+	font-size: 75px;
+	line-height:78px;
+	letter-spacing: 2.5px;
+	
+	
+
+	
+}
+
+
+
+a:hover {
+  background-color:white;
+  color:black;
+
+
+
+}
+
+}
+
+

@@ -1,0 +1,143 @@
+
+
+body {
+	background-color: red;
+
+}
+
+
+
+h1 {
+	color: black;
+
+	line-height:300px;
+
+}
+
+.info {
+
+	font-family: helvetica;
+	font-size: 90px;
+	
+	margin-bottom: 300px;
+	text-align: center;
+	margin-left: 30px;
+	line-height:100px;
+	letter-spacing:5px;
+}
+
+
+
+
+.date {
+	font-family: helvetica;
+	font-size: 150px;
+	text-align: center;
+}
+
+
+.one{
+	font-family: garamond;
+	font-size: 175px;
+	margin-top: -395px;
+	float:right;
+
+}
+
+
+.two{
+	font-family: garamond;
+	font-size: 175px;
+	margin-top: 165px;
+	margin-right: -165px;
+	float:right;
+	
+}
+
+.three {
+	font-family: garamond;
+	font-size: 175px;
+	margin-top: -200px;
+	margin-right: 10px;
+	float:right;
+	
+}
+
+.five {
+	font-family: garamond;
+	font-size: 175px;
+	margin-top: -740px;
+	
+	
+	
+}
+
+
+.four {
+	font-family: garamond;
+	font-size: 175px;
+	margin-top: -200px;
+	float:left;
+	
+}
+
+
+
+.content {
+	font-family: helvetica;
+	font-size: 200px;
+	margin-bottom: 300px;
+	text-align: center;
+	margin-left: 30px;
+	line-height:200px;
+	letter-spacing:8px;
+
+
+
+
+
+}
+
+.btwo {
+	height:1200px;
+	width:70px;
+	background-color: black;
+}
+
+.yss {
+	float:left;
+	width:200px;
+	font-family: helvetica;
+}
+.jmb {
+	float:left;
+	width:200px;
+	font-family: helvetica;
+}
+
+a:hover {
+  background-color:yellow;
+  color:white;
+}
+ 
+
+
+/*.bone {
+	height:40px;
+	width:900px;
+	background-color: black;
+	float:right;
+	margin-top: 70px;
+}
+
+
+.bone {
+	height:40px;
+	width:1000px;
+	background-color: black;
+	float:right;
+	margin-top: 70px;
+	margin-right: 400px;
+
+}
+

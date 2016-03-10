@@ -1,0 +1,66 @@
+body {
+	background-color: white;
+	background-size: 100px;
+}
+
+.sans {
+	font-family: helvetica;
+	font-size: 200px;
+	text-decoration: overline;
+	line-height:203px;
+
+	
+}
+
+.sans2 {
+	font-family: helvetica;
+	font-size: 200px;
+	
+	text-decoration: line-through;
+
+	
+}
+
+
+a:hover {
+  background-color:yellow;
+	color:black;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+	
+.sans {
+	font-family: helvetica;
+	font-size: 65px;
+	text-decoration: overline;
+	line-height:75px;
+	letter-spacing: 2.5px;
+
+	
+}
+
+.sans2 {
+	font-family: helvetica;
+	font-size: 75px;
+	letter-spacing: 2.5px;
+	line-height:75px;
+	text-decoration: line-through;
+
+	
+}
+
+
+a:hover {
+  background-color:yellow;
+ color:black;
+  
+}
+
+
+
+
+

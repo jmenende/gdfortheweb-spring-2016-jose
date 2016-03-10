@@ -1,0 +1,92 @@
+body {
+	background-color: white;
+	background-size: 100px;
+
+
+	
+	
+}
+
+
+
+.sans {
+	font-family: helvetica;
+	font-size: 200px;
+	text-decoration: overline;
+	line-height:203px;
+	font-weight: normal;
+
+	
+}
+
+.sans2 {
+	font-family: helvetica;
+	font-size: 200px;
+	line-height:180px;
+	
+	text-decoration: line-through;
+
+	
+}
+
+
+
+
+a:hover {
+  background-color:red;
+
+
+  color:black;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+.sans {
+	font-family: helvetica;
+	font-size: 75px;
+	text-decoration: overline;
+	line-height:95px;
+	font-weight: normal;
+	letter-spacing: 2.5px;
+
+	
+}
+
+.sans2 {
+	font-family: helvetica;
+	font-size: 75px;
+	line-height:72px;
+	letter-spacing: 2.5px;
+	text-decoration: line-through;
+	letter-spacing: 2.5px;
+
+	
+}
+
+
+
+
+a:hover {
+  background-color:red;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+}

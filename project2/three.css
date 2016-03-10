@@ -1,0 +1,64 @@
+body {
+	background-color: white;
+	background-size: 100px;
+
+
+	
+	
+}
+
+/*.ruler {
+	height:600px;
+	width:1300px;
+	background-color:black;
+}*/
+
+
+
+
+
+
+.sans {
+	font-family: helvetica;
+	font-size: 200px;
+	text-decoration: overline;
+	line-height:250px;
+
+
+	
+}
+
+
+a:hover {
+  background-color:black;
+
+
+  color:white;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+    
+	
+
+.sans {
+	font-family: helvetica;
+	font-size: 75px;
+	text-decoration: overline;
+	line-height:95px;
+	letter-spacing: 2.5px;
+
+
+	
+}
+
+
+a:hover {
+  background-color:black;
+
+
+  color:white;
+  
+}

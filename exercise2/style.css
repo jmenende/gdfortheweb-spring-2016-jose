@@ -1,0 +1,90 @@
+body {
+	background-color: yellow;
+	background-size: 1500px;
+
+
+	
+	
+}
+
+
+
+h1 {
+	color: black;
+	width:200px;
+	line-height:150px;
+
+}
+
+.is-night{
+	background-color: black;
+}
+
+
+
+
+p {
+	
+	color:black;
+	background-color: white;
+	width:200px;
+	
+}
+
+.sans {
+	font-family: helvetica;
+	font-size: 150px;
+}
+
+.yss {
+	float:left;
+	width:200px;
+	font-family: helvetica;
+}
+.jmb {
+	float:left;
+	width:200px;
+	font-family: helvetica;
+}
+
+
+
+
+
+
+/*body {
+	background-color: red;
+	color:white;
+	background-image:url ("");
+}
+
+.is-night{
+	background-color: black;
+}
+
+
+h1 {
+	color: black;
+}
+
+.is-night h1{
+	color: white;
+}
+
+h1:hover {
+	background-color: yellow;
+}
+
+p {
+	text-indent: 60px;
+	margin-right: 100px;
+}
+
+.no-indent {
+	text-indent: 0;
+}
+.sans {
+	font-family: sans-serif;
+}
+
+background-image:url ("")
