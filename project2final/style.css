@@ -51,10 +51,9 @@ table {
 
 
 
-
 body {
 	background-color: white;
-	font-size: 72px;
+	font-size: 80px;
 	color: black;
 }
 
@@ -70,16 +69,16 @@ body {
 	font-family: garamond;
 	
 	position:fixed;
-	top: 0rem;
-	left: 0rem;
+	top: 3rem;
+	left: 3rem;
 }
 
 
 .one{
 	font-family: garamond;
 	position:fixed;
-	top: 0rem;
-	right:0rem;
+	top: 3rem;
+	right:3rem;
 
 	
 }
@@ -88,8 +87,8 @@ body {
 .two{
 	font-family: garamond;
 	position:fixed;
-	top: 22rem;
-	right: 0rem;
+	top: 23rem;
+	right: 3rem;
 	transform: rotate(90deg);
 	
 }
@@ -97,30 +96,30 @@ body {
 .three {
 	font-family: garamond;
 	position:fixed;
-	bottom:0rem;
-	right: 0rem;
+	bottom:3rem;
+	right: 3rem;
 	transform: rotate(180deg);
 }
-
-.five {
-	font-family: garamond;
-	position:fixed;
-	left:0rem;
-	bottom: 0rem;
-	transform: rotate(180deg);
-}
-
 
 .four {
 	font-family: garamond;
+	position:fixed;
+
+	left:3rem;
+	bottom: 3rem;
+	transform: rotate(180deg);
+}
+
+
+.five {
+	font-family: garamond;
 	
 	position:fixed;
-	top: 22rem;
-	left: 0rem;
+	top: 23rem;
+	left: 3rem;
 	transform: rotate(-90deg);
 	
 }
-
 
 
 
@@ -129,30 +128,139 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 94vh;
 }
 
-.content {
-	text-align: center;
-	font-size: 35px;
-	font-family: helvetica;
-	text-align: justify;
-	line-height:1.4;
-	width:70%;
-	text-decoration: overline;
-	background-color:gray;
-	padding:15px 15px 15px 15px;
+.title {
+text-align: justify;
+font-size: 6rem;
+font-family: helvetica;
+
+width:23%;
+line-height:1.1;
+padding:15px 185px 15px 25px;
+
+
+
+}
+
+
+a:hover {
+ 	background-color:white;
+	color:blue;
+  
+}
+
+
+
+@media screen and (max-width: 500px){
+
+body {
+	background-color: white;
+	font-size: 50px;
+	color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 94vh;
+}
+
+.title {
+text-align: justify;
+font-size: 2.75rem;
+font-family: helvetica;
+
+width:40%;
+line-height:1.1;
+padding:15px 185px 15px 25px;
+position:fixed;
+	top:14.3rem;
+	left: 4.5rem;
+
+}
+
+
+.date {
+	font-family: garamond;
 	
-/*background-color: red;
-position: absolute;
-top: 50%;
-left: 50%;
-margin: -70px 0  0 -85px;*/
+	position:fixed;
+	top: .5rem;
+	left: .5rem;
+}
+
+
+.one{
+	font-family: garamond;
+	position:fixed;
+	top: .5rem;
+	right:.5rem;
+
+	
+}
+
+
+.two{
+	font-family: garamond;
+	position:fixed;
+	top: 18rem;
+	right: .5rem;
+	transform: rotate(90deg);
+	
+}
+
+.three {
+	font-family: garamond;
+	position:fixed;
+	bottom:.5rem;
+	right: .5rem;
+	transform: rotate(180deg);
+}
+
+.four {
+	font-family: garamond;
+	position:fixed;
+
+	left:.5rem;
+	bottom: .5rem;
+	transform: rotate(180deg);
+}
+
+
+.five {
+	font-family: garamond;
+	
+	position:fixed;
+	top: 18rem;
+	left: .5rem;
+	transform: rotate(-90deg);
+	
 }
 
 
 
 
+}
 
+/*.bone {
+	height:40px;
+	width:900px;
+	background-color: black;
+	float:right;
+	margin-top: 70px;
+}
 
+<div class= "photo3"><img src="photo3.jpg">
+		</div>
+.bone {
+	height:40px;
+	width:1000px;
+	background-color: black;
+	float:right;
+	margin-top: 70px;
+	margin-right: 400px;
+
+}
 
