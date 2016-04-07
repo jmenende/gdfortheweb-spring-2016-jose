@@ -98,6 +98,9 @@ h2 {
 	letter-spacing: .5px;
 	line-height:4rem;
 	padding: 20px 20px 20px 20px;
+	-moz-box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+	box-shadow:10px 10px 5px rgba(0,0,0,0.3);
 }
 
 #info {
@@ -111,6 +114,9 @@ h2 {
 	letter-spacing: .5px;
 	line-height:1.1;
 	padding: 20px 20px 20px 20px;
+	-moz-box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+	box-shadow:10px 10px 5px rgba(0,0,0,0.3);
 }
 
 #location {
@@ -122,6 +128,9 @@ h2 {
 	text-align: left;
 	color:black;
 	padding: 20px 20px 20px 20px;
+	-moz-box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+	-webkit-box-shadow:10px 10px 10px rgba(0,0,0,0.3);
+	box-shadow:10px 10px 5px rgba(0,0,0,0.3);
 }
 
 
