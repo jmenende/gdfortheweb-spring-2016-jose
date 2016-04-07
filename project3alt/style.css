@@ -49,90 +49,85 @@ table {
 }
 
 
+ @font-face {
+      font-family: "nimbus-sans";
+      src: url("nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf");
+}
 
 
+ @font-face {    
+      font-family: "nimbus-sans1";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular-condensed.ttf");
+}
 
-
+@font-face {    
+      font-family: "nimbus-sans2";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular.ttf");
+}
 
 body {
   background-image: url("");
- 
   height:400px;
   width: 200px;
-
-    
 }
 
-
-#container0 {
-	width: 1200px;
-	height: 700px;
-
-	
+h1 {
+	font-family: nimbus-sans;
+	font-size: 4rem;
 }
 
+h2 {
+	font-family: nimbus-sans1;
+	font-size: 2rem;
+}
 
-#container1{
+.container:hover{
+	background-color:white;
+	z-index:200;
+}
+
+.container {
 	position: absolute;
 	background-color: white;
-	width:690px;
-	left: 50px;
-	top: 50px;
 }
-
-#container2{
-	position: absolute;
-	background-color: white;
-	width:28%;
-	left: 700;
-	top: 50;
-	z-index: 2;
-}
-
-#container3{
-	position: absolute;
-	background-color: white;
-	left: 250;
-	top: 50;
-	z-index:3;
-}
-
-
 
 #title {
-	font-size: 3rem;
-	text-align:left;
-	color:black;
-	font-family: Garamond;
-	padding:10px 10px 10px 10px;
-}
-
-#title2 {
-	font-size: 1.5rem;
-	text-align:left;
-	color:black;
-	font-family: Garamond;
-	padding:10px 10px 10px 10px;
+	width:700px;
+	left: 50%;
+	top: 50%;
+	letter-spacing: .5px;
+	line-height:4rem;
+	padding: 20px 20px 20px 20px;
 }
 
 #info {
+	width:500px;
+	left: 700%;
+	top: 50%;
 	font-size: 1rem;
 	text-align: left;
 	color:black;
-	font-family: Garamond;
-	
-	
+	font-family: nimbus-sans2;
 	letter-spacing: .5px;
-	line-height:1.2;
-	
-	padding: 10px 10px 10px 10px;
+	line-height:1.1;
+	padding: 20px 20px 20px 20px;
 }
 
 #location {
-	font-size: 1.5rem;
+	width:170px;
+	left: 250%;
+	top: 50%;
+	font-size: 2rem;
+	font-family: nimbus-sans1;
 	text-align: left;
 	color:black;
-	font-family: Garamond;
 	padding: 20px 20px 20px 20px;
 }
+
+
+
+
+
+
+
 
