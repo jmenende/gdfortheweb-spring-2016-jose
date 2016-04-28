@@ -95,6 +95,9 @@ body {
 	border-width: 10px 5px 10px 10px;
 }
 
+
+
+
 #b {
 	position:fixed;
 	background-color: white;
@@ -104,29 +107,18 @@ body {
 	bottom:0%;
 	border: 10px solid blue;
 	border-width: 10px 10px 10px 5px;
-	 
-	
-	
+	background-image: url("2.jpg");
+	background-size:cover;
+    background-repeat:no-repeat;
+    display: block; 
 
+   
 }
 
 
 
-#c {
-	position:fixed;
-	background-color: white;
-	top:0%;
-	left:70%;
-	right:0%;
-	bottom:0%;
-	border: 10px solid blue;
-	border-width: 10px 10px 10px 5px;
-	
-	
-	
 
-}
-
+/*
 .linkImage{
 	background-image: url("2.jpg");
 	background-size: fill;

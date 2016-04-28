@@ -98,29 +98,12 @@ body {
 	bottom:0%;
 	border: 10px solid blue;
 	border-width: 5px 10px 10px 10px;
-}
-#c {
-	position:fixed;
-	background-color: white;
-	top:30%;
-	left:0%;
-	right:0%;
-	bottom:0%;
-	border: 10px solid blue;
-	border-width: 55px 10px 10px 5px;
-	
-	
-	
-
-}
-
-.linkImage{
 	background-image: url("3.jpg");
-	background-size: fill;
-    background-repeat: no-repeat; 
-    position:fixed;
-    top:30%;
-	left:0%;
-	right:0%;
-	bottom:0%;
+	background-size:cover;
+    background-repeat:no-repeat; 
+   
+	
+}
+
+
 
