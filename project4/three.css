@@ -1,0 +1,206 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ @font-face {
+      font-family: "nimbus-sans";
+      src: url("nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf");
+}
+
+
+ @font-face {    
+      font-family: "nimbus-sans1";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular-condensed.ttf");
+}
+
+@font-face {    
+      font-family: "nimbus-sans2";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular.ttf");
+}
+
+body {
+  background-color: blue;
+  height:400px;
+  width: 200px;
+}
+
+
+
+
+
+.one {
+	position: absolute;
+	background-color: black;
+	position:fixed;
+	top:15px;
+	left:15px;
+	width:200px;
+	height:150px;
+}
+
+.two {
+	position: absolute;
+	background-color: white;
+	top:15px;
+	right:15px;
+	width:690px;
+	height:800px;
+
+}
+
+.three {
+	position: absolute;
+	background-color: red;
+	top:180px;
+	left:15px;
+	width:200px;
+	height:250px;
+
+}
+
+.four {
+	position: absolute;
+	background-color: green;
+	top:445px;
+	left:15px;
+	width:200px;
+	height:150px;
+
+}
+
+.five {
+	position: absolute;
+	background-color: yellow;
+	position:fixed;
+	top:15px;
+	left:230px;
+	width:380px;
+	height:150px;
+}
+
+.six {
+	position: absolute;
+	background-color: gray;
+	position:fixed;
+	top:15px;
+	left:625px;
+	width:90px;
+	height:150px;
+}
+
+.seven {
+	position: absolute;
+	background-color: magenta;
+	position:fixed;
+	top:180px;
+	left:230px;
+	width:380px;
+	height:250px;
+}
+
+.eight {
+	position: absolute;
+	background-color: orange;
+	position:fixed;
+	top:180px;
+	left:625px;
+	width:90px;
+	height:250px;
+}
+
+.nine {
+	position: absolute;
+	background-color: violet;
+	position:fixed;
+	top:445px;
+	left:230px;
+	width:380px;
+	height:250px;
+}
+
+.ten {
+	position: absolute;
+	background-color: brown;
+	top:445px;
+	left:625px;
+	width:90px;
+	height:150px;
+
+}
+
+.eleven {
+	position: absolute;
+	background-color: black;
+	top:610px;
+	left:15px;
+	width:200px;
+	height:200px;
+
+}
+
+.twelve {
+	position: absolute;
+	background-color: red;
+	top:610px;
+	left:625px;
+	width:90px;
+	height:200px;
+
+}
+
+.thirteen {
+	position: absolute;
+	background-color: black;
+	bottom:15px;
+	left:230px;
+	width:380px;
+	height:100px;
+
+}

@@ -1,0 +1,263 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ @font-face {
+      font-family: "nimbus-sans";
+      src: url("nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf");
+}
+
+
+ @font-face {    
+      font-family: "nimbus-sans1";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular-condensed.ttf");
+}
+
+@font-face {    
+      font-family: "nimbus-sans2";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular.ttf");
+}
+
+
+body {
+  background-color: blue;
+ }
+
+
+.wrapper {
+	
+	padding: 10px;
+	
+}
+
+
+#a {
+	position:fixed;
+	background-color: white;
+	top:0%;
+	left:0%;
+	right:80%;
+	bottom:80%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 10px;
+}
+
+#b {
+	position:fixed;
+	background-color: red;
+	top:0%;
+	left:20%;
+	right:60%;
+	bottom:50%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 5px;
+}
+
+#c {
+	position:fixed;
+	background-color: black;
+	top:0%;
+	left:40%;
+	right:50%;
+	bottom:80%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 5px;
+}
+
+#d {
+	position:fixed;
+	background-color: green;
+	top:20%;
+	left:0%;
+	right:80%;
+	bottom:20%;
+	border: 10px solid blue;
+	border-width: 5px 5px 5px 10px;
+}
+
+
+
+#f {
+	position:fixed;
+	background-color: gray;
+	top:20%;
+	left:40%;
+	right:50%;
+	bottom:20%;
+	border: 10px solid blue;
+	border-width: 5px 5px 5px 5px;
+}
+
+
+
+#h {
+	position:fixed;
+	background-color: yellow;
+	top:50%;
+	left:20%;
+	right:60%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 5px;
+}
+
+#i {
+	position:fixed;
+	background-color: gray;
+	top:80%;
+	left:40%;
+	right:50%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 5px;
+}
+
+#j {
+	position:fixed;
+	background-color: white;
+	top:80%;
+	left:0%;
+	right:80%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 10px;
+}
+
+
+
+
+
+#m {
+	position:fixed;
+	background-color: white;
+	top:0%;
+	left:50%;
+	right:35%;
+	bottom:50%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 5px;
+}
+
+#n {
+	position:fixed;
+	background-color: white;
+	top:50%;
+	left:50%;
+	right:35%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 5px;
+}
+
+#o {
+	position:fixed;
+	background-color: red;
+	top:50%;
+	left:50%;
+	right:35%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 5px;
+}
+
+#p {
+	position:fixed;
+	background-color: yellow;
+	top:0%;
+	left:65%;
+	right:30%;
+	bottom:50%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 5px;
+}
+
+#q {
+	position:fixed;
+	background-color: red;
+	top:50%;
+	left:65%;
+	right:30%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 5px;
+}
+
+#r {
+	position:fixed;
+	background-color: yellow;
+	top:0%;
+	left:70%;
+	right:25%;
+	bottom:50%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 5px;
+}
+
+#s {
+	position:fixed;
+	background-color: green;
+	top:50%;
+	left:70%;
+	right:25%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 5px 10px 5px;
+}
+
+#t {
+	position:fixed;
+	background-color: green;
+	top:0%;
+	left:75%;
+	right:0%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 10px 10px 10px 5px;
+}

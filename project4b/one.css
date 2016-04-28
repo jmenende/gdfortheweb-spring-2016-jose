@@ -1,0 +1,126 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+ @font-face {
+      font-family: "nimbus-sans";
+      src: url("nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf");
+}
+
+
+ @font-face {    
+      font-family: "nimbus-sans1";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular-condensed.ttf");
+}
+
+@font-face {    
+      font-family: "nimbus-sans2";
+	  src: url("nimbus-sans-l/nimbus-sans-l_regular.ttf");
+}
+
+
+body {
+  background-color: blue;
+ }
+
+
+.wrapper {
+	
+	padding: 10px;
+	
+}
+
+
+#a {
+	position:fixed;
+	background-color: white;
+	top:0%;
+	left:0%;
+	right:0%;
+	bottom:70%;
+	border: 10px solid blue;
+	border-width: 10px 10px 5px 10px;
+}
+
+#b {
+	position:fixed;
+	background-color: white;
+	top:30%;
+	left:0%;
+	right:0%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 10px 10px 10px;
+}
+#c {
+	position:fixed;
+	background-color: white;
+	top:30%;
+	left:0%;
+	right:0%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 55px 10px 10px 5px;
+	
+	
+	
+
+}
+
+.linkImage{
+	background-image: url("3.jpg");
+	background-size: fill;
+    background-repeat: no-repeat; 
+    position:fixed;
+    top:30%;
+	left:0%;
+	right:0%;
+	bottom:0%;
+
