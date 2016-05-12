@@ -67,7 +67,7 @@ table {
 
 
 body {
-  background-color: blue;
+
  }
 
 
@@ -142,4 +142,31 @@ body {
 	bottom:0%;
 	border: 10px solid blue;
 	border-width: 5px 5px 10px 10px;
+}
+
+#g {
+	position:fixed;
+	
+	top:0%;
+	left:60%;
+	right:0%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 10px 10px 10px 5px;
+	background-image: url("12.jpg");
+	background-size:cover;
+    background-repeat:no-repeat;
+}
+#h {
+	position:fixed;
+	
+	top:0%;
+	left:45%;
+	right:40%;
+	bottom:50%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 5px;
+	background-image: url("13.jpg");
+	background-size:cover;
+    background-repeat:no-repeat;
 }

@@ -154,3 +154,17 @@ body {
 	border: 10px solid blue;
 	border-width: 5px 10px 10px 5px;
 }
+
+#h {
+	position:fixed;
+	background-color: red;
+	top:0%;
+	left:10%;
+	right:40%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 10px 5px 10px 5px;
+	background-image: url("11.jpg");
+	background-size:cover;
+    background-repeat:no-repeat; 
+}

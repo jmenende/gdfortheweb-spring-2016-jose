@@ -50,14 +50,14 @@ table {
 
 
  @font-face {
-      font-family: "nimbus-sans";
-      src: url("nimbus-sans-l/nimbus-sans-l_bold-condensed.ttf");
+      font-family: "reglo";
+      src: url("Reglo-Bold.otf");
 }
 
 
  @font-face {    
-      font-family: "nimbus-sans1";
-	  src: url("nimbus-sans-l/nimbus-sans-l_regular-condensed.ttf");
+      font-family: "aileron";
+	  src: url("aileron/Aileron-Bold.otf");
 }
 
 @font-face {    
@@ -87,7 +87,7 @@ body {
 	bottom:20%;
 	border: 10px solid blue;
 	border-width: 10px 5px 5px 10px;
-}
+	}
 
 
 #b {
@@ -110,9 +110,59 @@ body {
 	bottom:0%;
 	border: 10px solid blue;
 	border-width: 5px 10px 10px 10px;
+	
 }
 
 
+#d {
+	position:fixed;
+	
+	top:0%;
+	left:0%;
+	right:50%;
+	bottom:20%;
+	border: 10px solid blue;
+	border-width: 10px 5px 5px 10px;
+	background-image: url("9.jpg");
+	background-size:cover;
+    background-repeat:no-repeat; 
+   
+}
 
+#info {
+	
+	position:fixed;
+	width: 30%;
+	top:0%;
+	left:50%;
+	right:0%;
+	bottom:20%;
+	font-size: 3rem;
+	text-align: left;
+	color:black;
+	font-family: aileron; 
+	letter-spacing: .5px;
+	line-height:1;
+	padding: 40px 40px 40px 40px;
+	
+}
+
+#title {
+	
+	position:fixed;
+	top:77%;
+	left:18%;
+	right:0%;
+	bottom:0%;
+	font-size: 8rem;
+	text-align: left;
+	color:blue;
+	font-family: reglo; 
+	letter-spacing: .5px;
+	line-height:1.1;
+	padding: 40px 40px 40px 40px;
+	
+	
+}
 
 

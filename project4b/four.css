@@ -132,3 +132,38 @@ body {
 	border: 10px solid blue;
 	border-width: 5px 10px 10px 5px;
 }
+
+#background {
+   position:fixed;
+	background-color: yellow;
+	top:30%;
+	left:60%;
+	right:0%;
+	bottom:0%;
+	border: 10px solid blue;
+	border-width: 5px 10px 10px 5px;
+}
+.line1 {
+	position:fixed;
+	top:0px;
+	right:10px;
+    width: 200px;
+    height: 200px;
+    border-bottom: 10px solid blue;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(45deg); 
+    
+   
+}
+.line2 {
+    width: 112px;
+    height: 47px;
+    border-bottom: 10px solid green;
+    -webkit-transform:
+        translateY(0px)
+        translateX(0px)
+        rotate(-45deg);
+   
+}
